@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+/* inconsolata-500 - latin */
+@font-face {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+       url('../fonts/inconsolata-v21-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+  background-color: #f5f0f0;
+  font-family: helvetica, sans-serif;
+  margin: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html, body{
+  background-color: #f5f0f0;
+  width: 100%;
+  margin: 0;
+}
+
+body{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+canvas {
+  border: 1px solid  #0f0f8f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/////
